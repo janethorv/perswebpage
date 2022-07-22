@@ -1,3 +1,7 @@
 export default function About() {
-    return <h1>Om meg</h1>
+    return (
+        <div className="about">
+            <h1>Om meg</h1>
+        </div>
+    )
 }

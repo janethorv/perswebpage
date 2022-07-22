@@ -1,11 +1,11 @@
 import './App.css';
-import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import CV from './pages/CV'
 import Sandbox from './pages/Sandbox'
+import Footer from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
         </Routes>
 
       </div>
+      <Footer />
     </div>
   );
 }
