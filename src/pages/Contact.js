@@ -1,5 +1,11 @@
 import '../css/Contact.scss';
 
 export default function Contact() {
-    return <h1>Kontakt</h1>
+    return (
+        <div className='contact'>
+            
+        </div>
+    
+
+    )
 }

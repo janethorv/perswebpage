@@ -27,7 +27,6 @@ Darkblue: 1d3557
 .about-text:hover .about-header{
     transition-duration: 400ms;
     transform: scale(1.05);
-    border-bottom: 3px solid #f1faee;
 }
 
 .about-text-odd:hover .about-circle-1 {
@@ -91,6 +90,7 @@ Darkblue: 1d3557
     font-size: 3rem;
     margin: 1rem;
     padding: 1rem;
+    transition-duration: 200ms;
 }
 
 .vertical-dots {
