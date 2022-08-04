@@ -1,4 +1,4 @@
-import '../css/About.css';
+import '../css/About.scss';
 import AboutIntro from '../components/AboutIntro';
 import AboutEdu from '../components/AboutEdu';
 import AboutProg from '../components/AboutProg';

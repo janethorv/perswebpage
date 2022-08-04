@@ -1,5 +1,5 @@
 import pdf from '../downloads/test.pdf'
-import '../css/CV.css';
+import '../css/CV.scss';
 
 export default function CV() {
     return (
