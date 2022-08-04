@@ -1,15 +1,23 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 export default function Navbar() {
-    return <nav className="nav">
+    return (
+    <nav className="nav">
         <Link to="/" className="nav-title">Jan Einar Thorvaldsen</Link>
-        <ul>
-            <CustomLink to="/about">Om meg</CustomLink>
-            <CustomLink  to="/cv">CV</CustomLink>
-            <CustomLink to="/contact">Kontakt</CustomLink>
-            <CustomLink  to="/sandbox">Sandkasse</CustomLink>
-        </ul>
+        <a href="menubars" className="toggle-button">
+            <span className='bar'></span>
+            <span className='bar'></span>
+            <span className='bar'></span>
+        </a>
+        <div className='navbar-links'>
+            <ul>
+                <CustomLink to="/about" className="link">Om meg</CustomLink>
+                <CustomLink  to="/cv" className="link">CV</CustomLink>
+                <CustomLink to="/contact" className="link">Kontakt</CustomLink>
+            </ul>
+        </div>
     </nav>
+    )
 }
 
 function CustomLink({ to, children, ...props }) {
@@ -24,4 +32,4 @@ function CustomLink({ to, children, ...props }) {
         </li>
         )
     }
-    
+
