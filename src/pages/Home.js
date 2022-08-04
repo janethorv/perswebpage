@@ -1,8 +1,9 @@
+import HomeHeader from "./HomeHeader";
+
 export default function Home() {
     return (
         <div className="home">
-            <h1>Hjemmeside</h1>
-            <p>Jeg er best</p>
+            <HomeHeader />
         </div>
     )
 }
