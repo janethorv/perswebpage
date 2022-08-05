@@ -15,8 +15,9 @@ export default function AboutProg() {
                 hverdagslige oppgaver og bruken av ettkorts-datamaskiner. Jeg bruker 
                 Python som primærspråk til prosedyreorienterte prosjekter, men har 
                 også erfaring med objektorientert programmering i Java. Jeg bruker også 
-                tid på webutvikling og har erfaring med HTML, CSS og JavaScript, i tillegg 
-                til rammeverk som React.js og Django. Sjekk gjerne ut Githuben min! 
+                tid på webutvikling og har fått en økende interesse for HTML, CSS og JavaScript, i tillegg 
+                til rammeverk som React.js og Django. Sjekk gjerne ut 
+                <a className="about-link" href="https://github.com/janethorv" target="_blank" rel="noreferrer"> GitHuben min</a>! 
                 </p>
             </div>
         </div>

@@ -4,7 +4,7 @@ export default function Navbar() {
 
     return (
     <nav className="nav">
-        <Link to="/" className="nav-title">Jan Einar Thorvaldsen</Link>
+        <Link to="/" className="nav-title">JAN EINAR THORVALDSEN</Link>
         <div className='navbar-links'>
             <ul>
                 <CustomLink to="/about" className="link">Om meg</CustomLink>

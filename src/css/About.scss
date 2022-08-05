@@ -109,6 +109,10 @@ Darkblue: 1d3557
     border-radius: 1rem;
     align-self: center;
 }
+
+.about-link {
+    text-decoration: none;
+}
 @media (max-width: 1300px) {
     .about-circle-1 {
         display: none;
