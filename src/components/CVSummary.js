@@ -6,10 +6,14 @@ import CVSummaryOth from "./CVSummaryOth"
 export default function CVSummary() {
     return (
         <div className="CV-summary"> 
-            <CVSummaryEdu />
-            <CVSummaryWork />
-            <CVSummaryOth />
-            <CVSummaryQual />
+            <div className="CV-summary-first-row">
+                <CVSummaryEdu />
+                <CVSummaryWork />
+            </div>
+            <div className="CV-summary-second-row">
+                <CVSummaryOth />
+                <CVSummaryQual />
+            </div>
         </div>
     )
 }

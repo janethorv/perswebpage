@@ -6,8 +6,10 @@ import CVSummary from '../components/CVSummary';
 export default function CV() {
     return (
         <div className="CV">
-            <CVIntro />
-            <CVButton />
+            <div className='CV-intro-container'>
+                <CVIntro />
+                <CVButton />
+            </div>
             <CVSummary />
         </div>
     )

@@ -1,0 +1,50 @@
+.CV {
+    display: flex;
+    flex-direction: column;
+}
+
+.CV-intro-container {
+    background-color: #f1faee;
+    color: #1d3557;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.CV-button{
+    margin-top: 2rem;
+}
+
+.CV-button a{
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+.CV-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.CV-summary-first-row, .CV-summary-second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.CV-summary-edu, .CV-summary-work, .CV-summary-oth, .CV-summary-qual {
+    background-color: #f1faee;
+    color: #1d3557;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+

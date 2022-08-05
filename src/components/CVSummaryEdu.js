@@ -2,7 +2,7 @@ export default function CVSummaryEdu() {
     return (
         <div className="CV-summary-edu">
             <h3>Utdanning</h3>
-            <div className="ntnu">
+            <div className="edu-container">
                 <p className="date">
                     08/2020 - d.d.
                 </p>
@@ -19,7 +19,7 @@ export default function CVSummaryEdu() {
                     Fordypning: Programvaresystemer
                 </p>
             </div>
-            <div className="asker-vgs">
+            <div className="edu-container">
                 <p className="date">
                     08/2015 - 06/2018.
                 </p>
