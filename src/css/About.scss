@@ -153,3 +153,9 @@ Darkblue: 1d3557
         padding: 0;
     }
 }
+
+@media screen and (max-width: 300px){
+    .about-header {
+      font-size: 2rem;
+    }
+  }

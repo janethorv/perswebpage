@@ -1,14 +1,10 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 export default function Navbar() {
+
     return (
     <nav className="nav">
         <Link to="/" className="nav-title">Jan Einar Thorvaldsen</Link>
-        <a href="menubars" className="toggle-button">
-            <span className='bar'></span>
-            <span className='bar'></span>
-            <span className='bar'></span>
-        </a>
         <div className='navbar-links'>
             <ul>
                 <CustomLink to="/about" className="link">Om meg</CustomLink>
@@ -32,4 +28,5 @@ function CustomLink({ to, children, ...props }) {
         </li>
         )
     }
+
 
