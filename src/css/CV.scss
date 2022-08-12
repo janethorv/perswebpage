@@ -8,7 +8,7 @@
     color: #1d3557;
     margin-bottom: 1rem;
     padding: 2rem;
-    border-radius: 3rem;
+    border-radius: .2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,6 +45,14 @@
     color: #1d3557;
     margin-top: 2rem;
     padding: 2rem;
-    border-radius: 3rem;
+    border-radius: .2rem;
+}
+
+@media screen and (max-width: 500px){
+    .CV-summary-first-row, .CV-summary-second-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 

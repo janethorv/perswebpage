@@ -22,9 +22,9 @@ export default function Home() {
             <div className='home'>
                 <div>
                 <Spring 
-                    from={{ opacity: 0, marginTop: -500}}
-                    to={{opacity: 1, marginTop: 0}}
-                    config={{duration: 2000}}
+                    from={{ opacity: 0}}
+                    to={{opacity: 1}}
+                    config={{delay: 1000,duration: 2000}}
                 >
                     {props => (
                         <animated.div style={props}>
@@ -32,10 +32,9 @@ export default function Home() {
                         </animated.div>
                     )}
                 </Spring>
-                </div>
-                <div>
+                
                 <Spring 
-                    from={{ opacity: 0, marginTop: 0}}
+                    from={{ opacity: 0}}
                     to={{opacity: 1}}
                     config={{delay: 7000, duration: 4000}}
             >
