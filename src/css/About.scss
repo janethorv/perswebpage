@@ -15,7 +15,6 @@ Darkblue: 1d3557
 .about-text {
     display: flex;
     align-items: center;
-    flex-shrink: 2;
 }
 
 .about-text:hover .about-box{
@@ -67,10 +66,10 @@ Darkblue: 1d3557
 
 .about-box {
     display: flex;
-    background-color: #f1faee;
-    color: #1d3557;
+    background-color: #ffffff;
+    color: #000000;
     padding: 1.5rem;
-    margin: 2rem;
+    margin: 1rem;
     border-radius: .2rem;
     max-width: 35rem;
     transition-duration: 1500ms;
@@ -78,12 +77,13 @@ Darkblue: 1d3557
 }
 
 .about-circle {
-    background-color: #f1faee;
+    background-color: #000000;
     width: 1.75rem;
     height: 1.75rem;
     margin: 1.5rem;
     border-radius: 1rem;
     flex-shrink: 2;
+    border:solid #000000 1px;
     transition-duration: 200ms;
 }
 

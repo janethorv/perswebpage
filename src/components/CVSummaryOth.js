@@ -24,10 +24,10 @@ export default function CVSummaryOth() {
                 <p className="title">
                     SBBN/Brigade Nord - Forsvaret
                 </p>
-                <p className="pos">
+                <p className="desc">
                     Førstegangstjeneste
                 </p>
-                <p className="desc">
+                <p className="pos">
                     Vognfører Scania og kompaniassistent
                 </p>
             </div>

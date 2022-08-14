@@ -12,10 +12,10 @@ export default function CVSummaryEdu() {
                 <p className="course">
                     Industriell økonomi og teknologiledelse
                 </p>
-                <p className="course tech">
+                <p className="course-depth">
                     Teknologiretning: Data
                 </p>
-                <p className="course depth">
+                <p className="course-depth">
                     Fordypning: Programvaresystemer
                 </p>
             </div>

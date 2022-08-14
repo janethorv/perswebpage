@@ -3,7 +3,6 @@ import HomeHeader from "../components/HomeHeader";
 import { Spring } from 'react-spring';
 import { animated } from 'react-spring';
 import { useEffect } from 'react';
-import HomeIngress from '../components/HomeIngress';
 import HomeTypewriter from '../components/HomeTypewriter';
 
 export default function Home() {
@@ -24,7 +23,9 @@ export default function Home() {
                 <Spring 
                     from={{ opacity: 0}}
                     to={{opacity: 1}}
-                    config={{delay: 1000,duration: 2000}}
+                    config={{duration: 3000}}
+                    
+                    
                 >
                     {props => (
                         <animated.div style={props}>
@@ -32,20 +33,18 @@ export default function Home() {
                         </animated.div>
                     )}
                 </Spring>
-                
+                </div>
                 <Spring 
                     from={{ opacity: 0}}
                     to={{opacity: 1}}
-                    config={{delay: 7000, duration: 4000}}
-            >
-                {props => (
-                    <animated.div style={props}>
-                        <HomeIngress />
-                    </animated.div>
-                )}
+                    config={{duration: 7000}}
+                >
+                    {props => (
+                        <animated.div style={props}>
+                            <HomeTypewriter/>
+                        </animated.div>
+                    )}
                 </Spring>
-                </div>
-                <HomeTypewriter/>
             </div>
         )
     }
