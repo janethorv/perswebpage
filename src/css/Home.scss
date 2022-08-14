@@ -1,0 +1,61 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-header {
+    margin-top: 6rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.typewriter {
+    display: flex;
+    font-size: 2.5rem;
+}
+.typewriter p {
+    margin-right: .7rem;
+}
+
+.typewriter span {
+    color: red;
+}
+
+
+
+@media screen and (max-width: 900px){
+    .home-header {
+        margin-top: 6rem;
+        font-size: 1.5rem;
+    }
+
+    .typewriter {
+        display: flex;
+        font-size: 1.5rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .home-header {
+        margin-top: 6rem;
+        font-size: .75rem;
+    }
+
+    .typewriter {
+        font-size: 1.5rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .home-header {
+        margin-top: 6rem;
+        font-size: .6rem;
+    }
+
+    .typewriter {
+        font-size: 1.5rem;
+        flex-direction: column;
+    }
+}
