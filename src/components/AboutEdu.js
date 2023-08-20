@@ -3,8 +3,8 @@ export default function AboutEdu() {
         <div className="about-text about-text-even">
             <div className="about-box">
                 <p>
-                    Mine faglige særinteresser er prosjektledelse, smidige arbeidsmetoder 
-                    og organisasjonsteori. Spørsmålet «hvordan man best mulig får mennesker 
+                    Mine faglige særinteresser er prosjektledelse, smidige arbeidsmetoder,
+                    organisasjonsteori og strategi. Spørsmålet «hvordan man best mulig får mennesker 
                     til å arbeide sammen» er på et overordnet plan noe av det jeg syntes er 
                     mest spennende å jobbe med. De fleste har opplevd å jobbe i team som 
                     fungerer godt. Nesten alle har opplevd å jobbe i team som fungerer dårlig. 

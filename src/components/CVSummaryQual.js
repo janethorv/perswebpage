@@ -4,11 +4,11 @@ export default function CVSummaryQual() {
             <h3>Kvalifikasjoner og interesser</h3>
             <ul>
                 <li>Arbeid i team</li>
+                <li>Strategi</li>
                 <li>Prosjektledelse</li>
                 <li>Agile arbeidsmetoder</li>
                 <li>Scrum</li>
                 <li>Programvareutvikling</li>
-                <li>Prosedyre- og objektorientert programmering</li>
             </ul>
         </div>
     )
