@@ -8,7 +8,12 @@ export default function HomeTypewriter() {
         <span>
           <Typewriter
             options={{
-                strings: [' programvareutvikling', ' smidig metodikk', ' prosjektledelse', ' arbeid i team'],
+                strings: [' programvareutvikling', 
+                          ' strategi',
+                          ' no-code', 
+                          ' prosjektledelse', 
+                          ' arbeid i team',
+                          ' smidig metodikk'],
                 autoStart: true,
                 loop: true,
               }}

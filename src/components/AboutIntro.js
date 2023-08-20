@@ -11,7 +11,7 @@ export default function AboutIntro() {
 
             <div className="about-box">
                 <p>
-                    Jeg heter Jan Einar Thorvaldsen, er 23 år gammel og kommer fra Asker. 
+                    Jeg heter Jan Einar Thorvaldsen, er 24 år gammel og kommer fra Asker. 
                     Høsten 2020 begynte jeg å studere industriell økonomi og teknologiledelse 
                     ved NTNU i Trondheim. Ved siden av studiet er jeg frivillig på Studentersamfundet, 
                     der jeg er med i Videokomiteen. 

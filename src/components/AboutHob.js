@@ -3,7 +3,7 @@ export default function AboutHob() {
         <div className="about-text about-text-even">
             <div className="about-box">
                 <p>
-                    Trening, matlaging, ølbrygging og 3D-printing er bare noen av de andre tingene jeg bruker tiden min på. 
+                    Trening, matlaging, ølbrygging og skisport er bare noen av de andre tingene jeg bruker tiden min på. 
                     I tillegg er jeg opptatt av å ta vare på de sosiale relasjonene mine. Som fulltidsstudent med verv på 
                     Samfundet mener jeg ofte at døgnet burde hatt vesentlig flere timer enn det egentlig har. 
                 </p>
