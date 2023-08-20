@@ -1,4 +1,4 @@
-import pdf from '../downloads/Jan_Einar_Thorvaldsen_CV.pdf'
+import pdf from '../downloads/jet_eng_cv.pdf'
 
 export default function CVButton() {
     return (
